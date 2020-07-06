@@ -29,8 +29,8 @@ class _HomePageState extends State<HomePage> {
               flex: 2,
               child: Container(
                 color: Colors.redAccent,
-                child: GestureDetector(
-                  onTap: (){
+                child: RaisedButton(
+                  onPressed: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context) => AlertDialog()
                     ));
                   },
